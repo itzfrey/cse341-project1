@@ -1,0 +1,44 @@
+// LOCALHOST
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get single contact (replace with actual ID)
+GET http://localhost:3000/contacts/69671343eda1ca3b87835065
+
+### Create new contact
+POST http://localhost:3000/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@email.com",
+  "favoriteColor": "Green",
+  "birthday": "1990-05-15"
+}
+
+### Delete contact (replace with actual ID)
+DELETE https://cse341-project1-on9x.onrender.com/contacts/696712eaeda1ca3b87835064
+
+
+// PRODUCTION
+### Get all contacts
+GET https://cse341-project1-on9x.onrender.com/contacts
+
+### Get single contact (replace with actual ID)
+GET https://cse341-project1-on9x.onrender.com/contacts/69671343eda1ca3b87835065
+
+### Create new contact
+POST https://cse341-project1-on9x.onrender.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@email.com",
+  "favoriteColor": "Green",
+  "birthday": "1990-05-15"
+}
+
+### Delete contact (replace with actual ID)
+DELETE https://cse341-project1-on9x.onrender.com/contacts/696712eaeda1ca3b87835064
